@@ -1,0 +1,38 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+    z-index: 1;  /* to keep it in front of other elements */
+
+    /* Animantions */
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.nav_black {
+    background-color: #111;
+}
+
+.navbar > .nav_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar > .nav_content > .nav_logo {
+    position: fixed;
+    top: 10px;
+    left: 0;
+    width: 80px;
+    object-fit: contain;  /* fit img/video in its container */
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.navbar > .nav_content > .nav_avatar {
+    position: fixed;
+    right: 20px;
+    width: 30px;
+    cursor: pointer;
+}
