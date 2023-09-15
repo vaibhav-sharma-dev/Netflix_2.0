@@ -1,3 +1,5 @@
+Visit the site at: https://netflix-2-66cc9.web.app/
+
 This is a basic Netflix Clone app created in React.js and React Router.
 
 This app features:
