@@ -15,6 +15,10 @@ To start the app:
 
 In the project directory, you can run:
 
+### `npm install`
+
+Installs all the node_modules in the app.
+
 ### `npm start`
 
 Runs the app in the development mode.\
